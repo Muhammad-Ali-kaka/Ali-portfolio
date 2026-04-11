@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Muhammad Ali</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reiciendis delectus fugiat quas animi
+                inventore autem quam quasi?</p>
+
+            <div class="social-media">
+                <a href="#"><img width="24" height="24" src="https://img.icons8.com/material-sharp/24/facebook.png"
+                        alt="facebook" /></a>
+                <a href="#"><img width="24" height="24" src="https://img.icons8.com/material-sharp/24/twitterx--v1.png"
+                        alt="twitterx--v1" /></a>
+                <a href="#"><img width="24" height="24" src="https://img.icons8.com/material-sharp/24/instagram-new.png"
+                        alt="instagram-new" /></a>
+                <a href="#"><img width="24" height="24" src="https://img.icons8.com/material-sharp/24/linkedin--v1.png"
+                        alt="linkedin--v1" /></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class="bx bx-code"></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class="bx bx-code"></i>
+                    <h3>Figma Converter</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class="bx bx-code"></i>
+                    <h3>Frontend Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class="bx bx-code"></i>
+                    <h3>backend Developer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/home.png">
+        </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/about.png">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here To Help Next Project!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quos ipsa quisquam incidunt alias corrupti
+                facere provident, aspernatur atque inventore quod voluptates consectetur eum! Quibusdam veniam
+                temporibus omnis aperiam. Hic incidunt, officiis iure sequi nisi necessitatibus dolorum facilis
+                aspernatur voluptatem?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- services section design -->
+    <section class="service" id="service">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="service-container">
+            <div class="service-box">
+                <i class="bx bx-code"></i>
+                <h3>Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit rem ipsa illum temporibus, dolorum
+                    deserunt pariatur quam perspiciatis maxime iure placeat ipsam.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="bx bx-paint"></i>
+                <h3>Figma Converter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit rem ipsa illum temporibus, dolorum
+                    deserunt pariatur quam perspiciatis maxime iure placeat ipsam.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="bx bx-chart"></i>
+                <h3>Javascript developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit rem ipsa illum temporibus, dolorum
+                    deserunt pariatur quam perspiciatis maxime iure placeat ipsam.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- projects section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./images/E-commerce.png">
+
+                <div class="portfolio-layer">
+                    <h4>E-commerce web</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://frolicking-marzipan-94391f.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/E-commerce" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/Hair-studio.png">
+
+                <div class="portfolio-layer">
+                    <h4>Hair-Studio</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://developerali.netlify.app/" target="_blank"><i
+                                class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Hair-studio" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/social-media.png">
+
+                <div class="portfolio-layer">
+                    <h4>social-media-app</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://graceful-cobbler-c62545.netlify.app/" target="_blank"><i
+                                class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/social-Media-App" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/Dark-theme.png">
+
+                <div class="portfolio-layer">
+                    <h4>Dark-Theme</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://creative-cajeta-df15ed.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Dark-portofio" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/daily.png">
+
+                <div class="portfolio-layer">
+                    <h4>portfolio-web</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://developer-alii.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/personal-portfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/university.png">
+
+                <div class="portfolio-layer">
+                    <h4>University web</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://cool-scone-b7d6e3.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/University-web" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/food-website.png">
+
+                <div class="portfolio-layer">
+                    <h4>food-website</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://charming-zabaione-501295.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/food-website" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/Tech-web.png">
+
+                <div class="portfolio-layer">
+                    <h4>Tech-web</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://tech-by-deve-ali.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Tech-Web" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/choice-maker-app.png">
+
+                <div class="portfolio-layer">
+                    <h4>Choice-maker-app</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://aesthetic-tarsier-77ee30.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Choice-App" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/Wheather.png">
+
+                <div class="portfolio-layer">
+                    <h4>Weather-app</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://keen-vacherin-d50119.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/wheather" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/facebook.png">
+
+                <div class="portfolio-layer">
+                    <h4>Face-book app</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://clinquant-pika-5477f5.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Facebook" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/to-do-list.png">
+
+                <div class="portfolio-layer">
+                    <h4>To-do-list</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://gregarious-centaur-7a6c68.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/To-do-list" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/Live-filter-app.png">
+
+                <div class="portfolio-layer">
+                    <h4>Live-Filter-app</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://magical-sherbet-7df747.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Live-Filter-App" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/food-recipe-app.png">
+
+                <div class="portfolio-layer">
+                    <h4>Food-recipe-app</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://chipper-dolphin-949017.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/food-recipe-app" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/blackjack.png">
+
+                <div class="portfolio-layer">
+                    <h4>Black Jack</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://dashing-starburst-22e4c2.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/blackjack" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/mini-login-form.png">
+
+                <div class="portfolio-layer">
+                    <h4>Mini-Login-form</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://comforting-starship-52edbd.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Mini-login-Form" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/cofffe.png">
+
+                <div class="portfolio-layer">
+                    <h4>Coffee Website</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://gentle-crepe-061a3b.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/Coffee-web-master" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/blurry.png">
+
+                <div class="portfolio-layer">
+                    <h4>Blurry picture</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, neque accusamus.</p>
+                    <div class="work-group">
+                        <a href="https://enchanting-rugelach-66e6f4.netlify.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        <a href="https://github.com/Muhammad-Ali-kaka/blurry-picture" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./images/testimonial1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat eaque laborum quo
+                            unde assumenda, laudantium dicta aperiam magnam, nisi aut accusamus repudiandae voluptatum
+                            quis, minima quam! Cumque pariatur repellendus hic natus, culpa sequi, neque repellat
+                            mollitia voluptatem officia, eos ipsa? Maxime cumque, facilis id assumenda ipsam tempora
+                            voluptates adipisci perferendis, illo at nemo accusantium exercitationem. Atque magni earum
+                            magnam.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./images/testimonial2.jpg" alt="">
+                        <h3>Flora ocean</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat eaque laborum quo
+                            unde assumenda, laudantium dicta aperiam magnam, nisi aut accusamus repudiandae voluptatum
+                            quis, minima quam! Cumque pariatur repellendus hic natus, culpa sequi, neque repellat
+                            mollitia voluptatem officia, eos ipsa? Maxime cumque, facilis id assumenda ipsam tempora
+                            voluptates adipisci perferendis, illo at nemo accusantium exercitationem. Atque magni earum
+                            magnam.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="./images/testimonial3.jpg" alt="">
+                        <h3>Julian grayson</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat eaque laborum quo
+                            unde assumenda, laudantium dicta aperiam magnam, nisi aut accusamus repudiandae voluptatum
+                            quis, minima quam! Cumque pariatur repellendus hic natus, culpa sequi, neque repellat
+                            mollitia voluptatem officia, eos ipsa? Maxime cumque, facilis id assumenda ipsam tempora
+                            voluptates adipisci perferendis, illo at nemo accusantium exercitationem. Atque magni earum
+                            magnam.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="Text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"> </textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Muhammad <span>Ali</span> | All rights reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="index.js"></script>
+</body>
+
+</html>
